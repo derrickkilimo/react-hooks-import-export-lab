@@ -1,4 +1,5 @@
 import React from "react";
+import { username, city,} from './src/data/user';
 
 function Home() {
   return (
@@ -9,3 +10,7 @@ function Home() {
     </div>
   );
 }
+
+console.log(username); // Output: Liza
+console.log(city);     // Output: New York
+

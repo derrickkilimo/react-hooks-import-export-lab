@@ -1,4 +1,5 @@
 import React from "react";
+import { image } from './src/data/user';
 
 function About() {
   return (
@@ -9,3 +10,5 @@ function About() {
     </div>
   );
 }
+
+console.log(image);    
